@@ -1,27 +1,52 @@
 # Porfolio de Denise Agustina Sepulveda Lagonegro
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+#YoProgramo 👩‍💻 
 
-## Development server
+A continuación se presenta el  Trabajo Práctico Final Integrador para el curso #YoProgramo, 4° etapa del Plan Argentina Programa 2023
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Forma de uso 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Más del 70% del tiempo que me llevo el proyecto fue destinado al **front end**, todo relacionado con que ve el usuario que visita la pagina, a su contenido y a lo que quiero presentar.
 
-## Build
+Teniendo en cuenta que después del login solo tendré acceso solo yo, lo deje para lo ultimo. Pero tuve que retomarlo por se uno de los requisitos de este proyecto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Credencial de acceso
 
-## Running unit tests
+```
+Username: Denise
+password: yoprogramo
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Credencial validas
 
-## Running end-to-end tests
+- El TOKEN esta guardado lolacalmente en LocalStorage
+- Si existe el token entrara en modo edición 
+- Al salir se borrara el token el LocalStorage
+- La duración del WEBTOKEN será de 1 hora
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+< inset imagen >
 
-## Further help
+### Consideraciones
+- las listas están ordenadas por año de finalizado
+- por ahora utilizo solo el link (URL) para las imágenes, lo ideal seria un servidor de imágenes para poder subirlas y redimensionarlas.
+- No llegue  a proteger las rutas de mi BackEnd, se podría validar con el Token para permitir las operaciones de INSERT, UPDATE, DELETE
+- API de autorización y validación se encuentra separado, no así su tabla users. La idea es implementar este servicio para tener el control de acceso a las APIs.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## ⚡ Link 
+
+
+    
+## 🛠 Skills
+
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,git,bootstrap,angular,typescript,github,mysql,spring,vscode)](https://skillicons.dev
+
+## Desarrollado por 
+- Sepulveda Denise
+
+Sigue en contacto: denisagustina@hotmail.com 
+
+"# Porfolio-Denise" 
